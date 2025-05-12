@@ -58,7 +58,7 @@ public class Game {
 			paddle.update(keyboard);
 			ball.update(keyboard);
 			collision_detection();
-			if(squares.getAmountOfBricks() == 35) {
+			if(squares.getAmountOfBricks() == 0) {
 				gameWin = true;
 				gamePause = true;
 				latestRuns.newScore(score.getScore());
